@@ -8,3 +8,29 @@ Benefits of this package:
 - ✔️ Efficient (no unnecessary class being created for usage).
 - ✔️ Supports finding words between delimiters on new lines (\r\n).
 - ✔️ Supports case sensitive (default) or case insensitive delimiter matches.
+
+## Usage
+
+When matches are found, they are returned as a array of the matched strings.
+
+```js
+const content =
+  "Hello @this is@ some content separated by \r\n@some@ delimiters";
+
+const matches = findWithinDelimiter({ delimiter: "@", content });
+
+console.log(matches);
+// [ 'this is', 'some' ]
+```
+
+When no matches are found, null is returned
+
+```js
+const content =
+  "Hello @this is@ some content separated by \r\n@some@ delimiters";
+
+const matches2 = findWithinDelimiter({ delimiter: "#", content });
+
+console.log(matches2);
+// null
+```
