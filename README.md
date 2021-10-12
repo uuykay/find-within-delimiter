@@ -6,5 +6,5 @@ Benefits of this package:
 
 - ✔️ No dependencies
 - ✔️ Efficient (no unnecessary class being created for usage).
-- ✔️ Supports finding words between delimiters on new lines.
+- ✔️ Supports finding words between delimiters on new lines (\r\n).
 - ✔️ Supports case sensitive (default) or case insensitive delimiter matches.

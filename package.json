@@ -1,0 +1,32 @@
+{
+  "name": "find-within-delimiter",
+  "version": "1.0.0",
+  "description": "A utility to find words within delimiters you define in strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uuykay/find-within-delimiter.git"
+  },
+  "keywords": [
+    "delimiter",
+    "string",
+    "tokens",
+    "finder",
+    "matcher",
+    "markdown",
+    "finder",
+    "regex",
+    "words",
+    "between",
+    "markers"
+  ],
+  "author": "William Kuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uuykay/find-within-delimiter/issues"
+  },
+  "homepage": "https://github.com/uuykay/find-within-delimiter#readme"
+}
